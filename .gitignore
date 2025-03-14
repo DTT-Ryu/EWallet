@@ -1,0 +1,89 @@
+# Ignore build folders
+bin/
+obj/
+
+# Ignore Visual Studio temporary files, build results, and user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider files
+.idea/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules if using frontend frameworks like React or Angular
+node_modules/
+
+# Ignore npm log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment and configuration files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Ignore .NET Core secrets
+secrets.json
+
+# Ignore publish output
+publish/
+*.publish.xml
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore Recycle Bin files (if any)
+$RECYCLE.BIN/
+
+# Ignore user-specific Visual Studio for Mac files
+.vscode/
+
+# Ignore JetBrains Rider IDE files
+.idea/
+
+# Ignore build and release folders from Azure DevOps
+.vsts/
+
+# Ignore temporary files
+~$*
+
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore VS Code settings (optional, if not sharing workspace settings)
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Ignore test results
+TestResults/
+
+# Ignore generated files
+Generated/
+
+# Ignore NuGet packages folder
+packages/
+
+# Ignore local tools manifest
+.dotnet-tools.json

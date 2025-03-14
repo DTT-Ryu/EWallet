@@ -26,6 +26,7 @@ yarn-error.log*
 appsettings.Development.json
 appsettings.Local.json
 appsettings.*.json
+appsettings.json
 
 # Ignore .NET Core secrets
 secrets.json

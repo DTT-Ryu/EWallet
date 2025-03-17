@@ -88,3 +88,9 @@ packages/
 
 # Ignore local tools manifest
 .dotnet-tools.json
+
+# Ignore Visual Studio launch settings
+.vscode/
+.vs/
+.idea/
+**/launchSettings.json
